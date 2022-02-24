@@ -1,0 +1,10 @@
+IDENTIFICADOR;ESTRUCTURA;PATH_CLASIFICADOR;BASE_DATOS;TABLA;ESTADO
+MBaaS_general_v1;MBaaS_general_v1_Op_Jur;jsonPayload.msm&AUDITORIA: Operaciones;8096_woombat;Data_cruda_MBaaS_v1;Activo
+MBaaS_general_v1;MBaaS_general_v1_Op_men;jsonPayload.msm&AUDITORIA: Operaciones;8096_woombat;Data_mensajes_MBaaS_v1;Activo
+MBaaS_general_v1;MBaaS_general_v1_Op_Jur;jsonPayload.msm&AUDITORIA: Cumplimiento Juridico;8096_woombat;Data_cruda_MBaaS_v1;Activo
+Trazabilidad_CM_TM_AB;Trazabilidad_CM_TM;SELECT * FROM DataIN WHERE operation.source_reference.product.type = '0120|3510';8096_woombat;rtd_tarjeta_movil;Activo
+Trazabilidad_CM_TM_AB;Trazabilidad_CM_TM;SELECT * FROM DataIN WHERE operation.source_reference.product.type = '0160|4200' AND operation.source_reference.product.details_product.details.name[3] IS NULL;8096_woombat;rtd_credito_movil;Activo
+Trazabilidad_CM_TM_AB;Trazabilidad_Abandonos;SELECT * FROM DataIN WHERE operation.source_reference.product.details_product.details.name[3] = 'ULTIMO_PASO';8096_woombat;rtd_abandonos;Activo
+MBaaS_MemApple_CO_v1;MBaaS_MembApple_v1_Op_Jur;jsonPayload.msm&AUDITORIA: Operaciones;8096_woombat;Data_cruda_MemApple_CO_v1;Activo
+MBaaS_MemApple_CO_v1;MBaaS_MembApple_v1_Op_men;jsonPayload.msm&AUDITORIA: Operaciones;8096_woombat;Data_mensajes_MemApple_CO_v1;Activo
+MBaaS_MemApple_CO_v1;MBaaS_MembApple_v1_Op_Jur;jsonPayload.msm&AUDITORIA: Cumplimiento Juridico;8096_woombat;Data_cruda_MemApple_CO_v1;Activo

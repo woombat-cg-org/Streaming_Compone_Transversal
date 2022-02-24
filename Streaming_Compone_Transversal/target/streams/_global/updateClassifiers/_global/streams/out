@@ -1,0 +1,5 @@
+[warn] stax-api-1.0-2-sources.jar no longer exists at C:\Users\Woombat\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2-sources.jar
+[debug] "not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/Lenovo/Desktop/WOOMBAT/Componente%20Transversal/streaming-MBaaS-JSON-main/"), "streaming-mbaas-json-main")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/Lenovo/Desktop/WOOMBAT/Componente%20Transversal/streaming-MBaaS-JSON-main/"), "streaming-mbaas-json-main")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

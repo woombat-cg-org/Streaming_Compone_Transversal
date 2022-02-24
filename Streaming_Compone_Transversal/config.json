@@ -1,0 +1,16 @@
+{
+  "log_level": "DEBUG",
+  "spark_master": "local[*]",
+  "path_maestra": "metadata_maestra.csv",
+  "path_estructura": "metadata_JSON.csv",
+  "path_batch": "batch_rtd.json",
+  "kudu_master" : "savcmaster-14f94ce7.ms.davivienda.cloud:7051,savcmaster-1af6073c.ms.davivienda.cloud:7051,savcmaster-2cb71931.ms.davivienda.cloud:7051",
+  "ss_batch_secs" : "2",
+  "spark_log_level" : "WARN",
+  "brokers" : "10.196.65.250:9092,10.196.66.18:9092,10.196.65.232:9092",
+  "group_id" : "default",
+  "security" : "PLAINTEXT",
+  "sasl_mechanism" : "GSSAPI",
+  "identificador": "Mbaas_CAM_General",
+  "usuario_kerberos": ""
+}
